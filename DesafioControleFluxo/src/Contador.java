@@ -22,7 +22,7 @@ public class Contador {
     static void contar(int parameter1, int parameter2) throws ParametrosInvalidosException {
 //        Valida se o parameter1 é maior ou igual ao parameter2 e se for lança a exceção
         if(parameter1 >= parameter2){
-            throw new ParametrosInvalidosException("O primeiro parâmetro não pode ser maior que o segundo.");
+            throw new ParametrosInvalidosException("O primeiro parâmetro não pode ser maior que o segundo. Tente novamente.");
         }
 
         int contagem = parameter2 - parameter1;
